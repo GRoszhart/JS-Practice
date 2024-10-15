@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booleans</title>
+    </head>
+    <body>
+        <script>
+
+        /* Exercise 1 */
+        const hour = 3;
+        const name = 'Grant';
+
+        if (hour >= 6 && hour < 12) {
+            console.log(`Good Morning, ${name}`);
+        } else if (hour >= 12 && hour < 17 ){
+            console.log(`Good Afternoon, ${name}`);
+        } else {
+            console.log(`Good Night, ${name}`);
+        }
+
+        /* Exercise 2 */
+        const age = 66;
+        const isHoliday = true;
+
+        if ((age <= 6 || age >= 65) && isHoliday === false) {
+            console.log("Discount Applied.");
+        } else {
+            console.log("No Discount Available.");
+        }
+        </script>
+    </body>
+</html>
